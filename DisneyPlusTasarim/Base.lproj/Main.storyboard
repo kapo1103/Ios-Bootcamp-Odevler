@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="F1P-RO-S1p">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DisneyPlusTasarim" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" dataMode="prototypes" id="qOH-C7-9kG">
+                                <rect key="frame" x="16" y="124" width="382" height="180"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="SEY-f3-Irp">
+                                    <size key="itemSize" width="382" height="180"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="filmHucre" id="3le-bD-GKd" customClass="FilmlerCollectionViewCell" customModule="DisneyPlusTasarim" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="180"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="cmP-ic-A96">
+                                            <rect key="frame" x="0.0" y="0.0" width="382" height="180"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="extraordinary" id="SQ7-lR-SQ4">
+                                                    <rect key="frame" x="0.0" y="0.0" width="382" height="180"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </collectionViewCellContentView>
+                                        <connections>
+                                            <outlet property="filmlerImageView" destination="SQ7-lR-SQ4" id="YyZ-FA-sCd"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="DmC-0W-fsN">
+                                <rect key="frame" x="16" y="446" width="398" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="0eS-4d-ZcD">
+                                    <size key="itemSize" width="110" height="150"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="yeniHucre" id="bGR-MK-Yeh" customClass="YeniCollectionViewCell" customModule="DisneyPlusTasarim" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="110" height="150"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="vN4-x0-xaD">
+                                            <rect key="frame" x="0.0" y="0.0" width="110" height="150"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="extraordinary" id="s1Q-xg-U7P">
+                                                    <rect key="frame" x="0.0" y="0.0" width="110" height="150"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="110" height="150"/>
+                                        <connections>
+                                            <outlet property="imageView" destination="s1Q-xg-U7P" id="Fmg-u1-dnl"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daha Fazla Eğlence" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6tZ-hA-Zsh">
+                                <rect key="frame" x="16" y="612" width="148" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="tabbarItemTiklandiRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dahafazla" id="bGf-iw-te2">
+                                <rect key="frame" x="16" y="641" width="382" height="256"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Disney+'ta Yeni" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="67X-J7-3N0">
+                                <rect key="frame" x="16" y="414" width="117.5" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="tabbarItemTiklandiRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="304" placeholderIntrinsicHeight="65" distribution="fillEqually" spacing="16" id="8F9-CN-RLv">
+                                <rect key="frame" x="16" y="325" width="382" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="48" placeholderIntrinsicHeight="48" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UVe-Yn-S7w">
+                                        <rect key="frame" x="0.0" y="0.0" width="63.5" height="65"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <backgroundConfiguration key="background" image="a"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="disneyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9L6-rc-hSO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aNk-HW-3BA">
+                                        <rect key="frame" x="79.5" y="0.0" width="63.5" height="65"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <backgroundConfiguration key="background" image="d"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="pixarButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YMI-fs-a6h"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y46-Eo-o7a">
+                                        <rect key="frame" x="159" y="0.0" width="64" height="65"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <backgroundConfiguration key="background" image="e"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="marvelButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GVk-zg-jbd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WZf-E4-LmZ">
+                                        <rect key="frame" x="239" y="0.0" width="63.5" height="65"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <backgroundConfiguration key="background" image="b"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="starWarsButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H4d-pS-NLL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Br-rh-5nk">
+                                        <rect key="frame" x="318.5" y="0.0" width="63.5" height="65"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <backgroundConfiguration key="background" image="c"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="ngButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jb4-GB-ep6"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.16862745100000001" green="0.18823529410000001" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.16862745100000001" green="0.18823529410000001" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="arkaplanRenk"/>
+                        <constraints>
+                            <constraint firstItem="bGf-iw-te2" firstAttribute="top" secondItem="6tZ-hA-Zsh" secondAttribute="bottom" constant="8" id="5zl-ax-b0J"/>
+                            <constraint firstItem="67X-J7-3N0" firstAttribute="top" secondItem="8F9-CN-RLv" secondAttribute="bottom" constant="24" id="6Za-Ka-2CT"/>
+                            <constraint firstItem="67X-J7-3N0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="84t-pn-WY2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8F9-CN-RLv" secondAttribute="trailing" constant="16" id="Jzk-Gc-Clv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bGf-iw-te2" secondAttribute="trailing" constant="16" id="XWN-bw-dUi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qOH-C7-9kG" secondAttribute="trailing" constant="16" id="XZA-jC-nTI"/>
+                            <constraint firstItem="8F9-CN-RLv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="YxJ-mj-JEg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DmC-0W-fsN" secondAttribute="trailing" id="cqf-Q9-Gmn"/>
+                            <constraint firstItem="6tZ-hA-Zsh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="fqJ-zf-a9f"/>
+                            <constraint firstItem="qOH-C7-9kG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="h2J-TH-kw3"/>
+                            <constraint firstItem="6tZ-hA-Zsh" firstAttribute="top" secondItem="DmC-0W-fsN" secondAttribute="bottom" constant="16" id="l1E-Y5-RVu"/>
+                            <constraint firstItem="DmC-0W-fsN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="o8u-pp-I2z"/>
+                            <constraint firstItem="DmC-0W-fsN" firstAttribute="top" secondItem="67X-J7-3N0" secondAttribute="bottom" constant="8" id="qzu-VD-YqV"/>
+                            <constraint firstItem="qOH-C7-9kG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="sRV-Qs-RF3"/>
+                            <constraint firstItem="bGf-iw-te2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="vvL-aK-hO8"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="dCa-jD-CAP"/>
+                    <connections>
+                        <outlet property="filmlerCollectionView" destination="qOH-C7-9kG" id="h6q-y4-aA7"/>
+                        <outlet property="yeniFilmlerCollectionView" destination="DmC-0W-fsN" id="Iei-To-qlr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2626.0869565217395" y="-2.0089285714285712"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pjy-nL-3jV">
+            <objects>
+                <viewController id="SOZ-cz-rg5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bw2-IT-e6g">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="İndirme" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9vR-hU-FS3">
+                                <rect key="frame" x="158.5" y="430" width="97" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="yKZ-of-hdL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9vR-hU-FS3" firstAttribute="centerX" secondItem="Bw2-IT-e6g" secondAttribute="centerX" id="BcM-di-fYs"/>
+                            <constraint firstItem="9vR-hU-FS3" firstAttribute="centerY" secondItem="Bw2-IT-e6g" secondAttribute="centerY" id="T2o-eN-Fm0"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="baseline_download_black_36pt_1x" id="s11-yK-0hg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fl3-0v-gAE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3355.072463768116" y="400.44642857142856"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Pbp-Ki-Qa8">
+            <objects>
+                <viewController id="bEN-yp-tn4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WoP-3R-30C">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profil" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UXQ-Ff-bcg">
+                                <rect key="frame" x="174" y="430" width="66" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8tB-D0-SsR"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="UXQ-Ff-bcg" firstAttribute="centerX" secondItem="WoP-3R-30C" secondAttribute="centerX" id="2SS-Mf-fXR"/>
+                            <constraint firstItem="UXQ-Ff-bcg" firstAttribute="centerY" secondItem="WoP-3R-30C" secondAttribute="centerY" id="5F9-VZ-fSf"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="baseline_account_circle_black_36pt_1x" id="pFz-2K-Ehx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m1h-kq-Hld" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4155.072463768116" y="84.375"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9s3-65-54E">
+            <objects>
+                <viewController id="cPU-ju-XL0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NZ6-27-0wq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arama" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tIx-Ue-gZU">
+                                <rect key="frame" x="165" y="430" width="84.5" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="FR7-NB-vHj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="tIx-Ue-gZU" firstAttribute="centerX" secondItem="NZ6-27-0wq" secondAttribute="centerX" id="5HM-WX-1tX"/>
+                            <constraint firstItem="tIx-Ue-gZU" firstAttribute="centerY" secondItem="NZ6-27-0wq" secondAttribute="centerY" id="TIL-Nr-0hA"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="baseline_search_black_36pt_1x" id="FKc-po-WVS">
+                        <color key="badgeColor" name="tabbarItemTiklandiRenk"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pPl-yS-tQ8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3355.072463768116" y="-275.22321428571428"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="WMZ-5p-noc">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="F1P-RO-S1p" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="4se-0r-hrd"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="NPW-kf-ceC">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" name="tabbarItemTiklandiRenk"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="xLI-i1-Q1z" kind="relationship" relationship="viewControllers" id="JbA-4r-ozL"/>
+                        <segue destination="cPU-ju-XL0" kind="relationship" relationship="viewControllers" id="2gy-7q-gZ9"/>
+                        <segue destination="SOZ-cz-rg5" kind="relationship" relationship="viewControllers" id="abh-C1-uRJ"/>
+                        <segue destination="bEN-yp-tn4" kind="relationship" relationship="viewControllers" id="vrM-Aq-vIr"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1gH-9j-4Nv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="968.11594202898561" y="-2.0089285714285712"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="5dq-bk-mz7">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xLI-i1-Q1z" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="baseline_home_black_36pt_1x" id="0PI-uy-Dkz"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Y7H-sI-yAs">
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="usZ-X6-evt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ohl-vG-CzF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1715.9420289855075" y="-2.0089285714285712"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="a" width="104" height="104"/>
+        <image name="b" width="104" height="104"/>
+        <image name="baseline_account_circle_black_36pt_1x" width="36" height="36"/>
+        <image name="baseline_download_black_36pt_1x" width="36" height="36"/>
+        <image name="baseline_home_black_36pt_1x" width="36" height="36"/>
+        <image name="baseline_search_black_36pt_1x" width="36" height="36"/>
+        <image name="c" width="103" height="102"/>
+        <image name="d" width="99" height="100"/>
+        <image name="dahafazla" width="983" height="461"/>
+        <image name="e" width="104" height="103"/>
+        <image name="extraordinary" width="682" height="385"/>
+        <namedColor name="arkaplanRenk">
+            <color red="0.16862745098039217" green="0.18823529411764706" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="tabbarItemTiklandiRenk">
+            <color red="0.97600001096725464" green="0.97600001096725464" blue="0.97600001096725464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
